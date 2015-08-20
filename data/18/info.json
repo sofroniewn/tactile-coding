@@ -1,0 +1,17 @@
+{
+"id": "Anm_0248793",
+"date":"2014_06_08",
+"lab": "Svoboda Lab",
+"contributors": ["Nicholas Sofroniew"],
+"location": "Janelia Research Campus",
+"animal": "Mouse",
+"animal-state": "Awake head-fixed",
+"experiment": "Tactile Virtual Reality",
+"method": "Two-photon raster",
+"indicator": "GCaMP6s",
+"region": "vS1",
+"depth-microns": 200,
+"pixels-per-micron": 1.15,
+"rate-hz": 7.1,
+"dimensions": [512, 512, 4138]
+}
