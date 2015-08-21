@@ -1,6 +1,6 @@
-# SofroniewVlasov2015
+# sofroniew-vlasov-2015
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/sofroniewn/SofroniewVlasov2015)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/sofroniewn/sofroniew-vlasov-2015)
 
-Notebooks to accompany SofroniewVlasov2015
+Notebooks to accompany Sofroniew, Vlasov et al. 2015
 
