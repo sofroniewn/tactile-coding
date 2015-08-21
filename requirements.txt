@@ -1,2 +1,1 @@
 seaborn
-thunder-python
