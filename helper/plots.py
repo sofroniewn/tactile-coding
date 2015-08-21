@@ -158,7 +158,7 @@ def pairedtime(t1, y1, t2, y2):
     plt.plot(t1, y1, linewidth=4, color='black')
     plt.xlim((-.05, 1.05))
     plt.ylim((-.05*ymax, ymax*1.05))
-    plt.ylabel('Firing rate (ips)')
+    plt.ylabel('Spikes / s')
     plt.xlabel('Time (s)')
     plt.xticks([0, 0.5, 1.0])
     plt.subplot(1, 2, 2)
