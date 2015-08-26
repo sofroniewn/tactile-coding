@@ -4,4 +4,5 @@
 
 Interactive notebooks to accompany Sofroniew\*, Vlasov\*, et al. 2015 (to be submitted)
 
-Note: imagingRaw and ephysRaw are not fully interactive yet
+ephysRaw, raw data not provided
+imagingRaw uses session 13 only, and does not include raw images
