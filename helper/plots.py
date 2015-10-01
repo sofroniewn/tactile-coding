@@ -43,9 +43,9 @@ def scatter(x, y, equal=False, xlabel=None, ylabel=None, xinvert=False, yinvert=
         plt.ylabel(ylabel)
     if equal:
         plt.axes().set_aspect('equal')
-        plt.plot([0, max([x.max(), y.max()])], [0, max([x.max(), y.max()])], color=[0.6, 0.6, 0.6], zorder=1)
         bmin = min([x.min(), y.min()])
         bmax = max([x.max(), y.max()])
+        plt.plot([min(bmin,0), bmax], [min(bmin,0), bmax], color=[0.6, 0.6, 0.6], zorder=1)
         rng = abs(bmax - bmin)
         plt.xlim([bmin - rng*0.05, bmax + rng*0.05])
         plt.ylim([bmin - rng*0.05, bmax + rng*0.05])
@@ -170,12 +170,12 @@ def pairedtime(t1, y1, t2, y2):
     sns.despine()
     plt.gca().get_yaxis().set_visible(False)
 
-def heatmap(vals, size=6, aspect=1):
+def heatmap(vals, size=6, aspect=1, vmin=0, vmax=1):
     """
     Plot a heatmap from matrix data
     """
     plt.figure(figsize=(size,size))
-    plt.imshow(vals, cmap='gray', aspect=aspect, interpolation='none', vmin=0, vmax=1)
+    plt.imshow(vals, cmap='gray', aspect=aspect, interpolation='none', vmin=vmin, vmax=vmax)
     plt.axis('off')
 
 def pairedheatmap(vals1, vals2, size=6, aspect=1):
