@@ -93,7 +93,7 @@ def smootharray(vals, smooth=0, res=1000):
     normed = asarray([f/nanmax(f) for f in smoothed])
     return normed
 
-def tuning(x, y, err=None, smooth=None, ylabel=None, pal=None):
+def tuning(x, y, err=None, smooth=None, ylabel=None, pal=None, label='Wall distance (mm)'):
     """
     Plot a tuning curve
     """
@@ -108,7 +108,7 @@ def tuning(x, y, err=None, smooth=None, ylabel=None, pal=None):
     plt.scatter(x, y, s=300, linewidth=0, color=pal, zorder=2)
     if err is not None:
         plt.errorbar(x, y, yerr=err, linestyle="None", ecolor='black', zorder=1)
-    plt.xlabel('Wall distance (mm)')
+    plt.xlabel(label)
     plt.ylabel(ylabel)
     plt.xlim([-2.5,32.5])
     errTmp = err
