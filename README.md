@@ -3,7 +3,7 @@
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/sofroniewn/tactile-coding)
 
 Interactive notebooks to accompany Sofroniew\*, NJ, Vlasov\*, YA, Hires, SA, Freeman, J, Svoboda, K -
-Neural coding in barrel cortex during whisker-guided locomotion. (submitted 2015).
+Neural coding in barrel cortex during whisker-guided locomotion. (Submitted 2015)
 
 
 The data anlaysis is split into 5 notebooks, three for the calcium imaging analsis, and two for the electrophysiology analysis. There is one additional helper module located inside the helper folder. All the data lives in an S3 bucket on Amazon.
