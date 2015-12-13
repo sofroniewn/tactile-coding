@@ -31,11 +31,11 @@ def hist(vals, bins=10, horizontal=False, xlabel=None, ylabel=None, xinvert=Fals
         plt.gca().invert_yaxis()
     sns.despine()
 
-def scatter(x, y, equal=False, xlabel=None, ylabel=None, xinvert=False, yinvert=False):
+def scatter(x, y, equal=False, xlabel=None, ylabel=None, xinvert=False, yinvert=False, color=[0.3, 0.3, 0.3]):
     """
     Plot a scatter with simple formatting options
     """
-    plt.scatter(x, y, 200, color=[0.3, 0.3, 0.3], edgecolors='white', linewidth=1, zorder=2)
+    plt.scatter(x, y, 200, color=color, edgecolors='white', linewidth=1, zorder=2)
     sns.despine()
     if xlabel:
         plt.xlabel(xlabel)
