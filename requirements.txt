@@ -1,2 +1,2 @@
 seaborn
-thunder-python
+pip install git+https://github.com/thunder-project/thunder.git@master
