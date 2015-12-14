@@ -2,11 +2,12 @@
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/sofroniewn/tactile-coding)
 
-Interactive Jupyter notebooks to accompany **Sofroniew\*, NJ, Vlasov\*, YA, Hires, SA, Freeman, J, Svoboda, K -
-Neural coding in barrel cortex during whisker-guided locomotion (Submitted 2015)**
+Interactive Jupyter notebooks to accompany 
 
+***Sofroniew\*, NJ, Vlasov\*, YA, Hires, SA, Freeman, J, Svoboda, K -
+Neural coding in barrel cortex during whisker-guided locomotion (Submitted 2015)***
 
-The data anlaysis is split into 5 notebooks, three for the calcium imaging analsis, and two for the electrophysiology analysis. There is one additional helper module located inside the helper folder. All the data is stored on Amazon S3 in the bucket `neuro.datasets` under the directory `svoboda.lab/tactile.coding`.
+The data anlaysis is split into 5 notebooks, three for the calcium imaging analsis, and two for the electrophysiology analysis, representing progressively refined stages of preprocessing and analysis. There is one additional helper module located inside the helper folder. All the raw data is stored and made publicly available on Amazon S3 in the bucket `neuro.datasets` under the directory `svoboda.lab/tactile.coding`. See the notebooks for examples of accessing the data.
 
 
 ### Contents
