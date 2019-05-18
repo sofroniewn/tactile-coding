@@ -1,12 +1,18 @@
+
+[![DOI](https://zenodo.org/badge/41120150.svg)](https://zenodo.org/badge/latestdoi/41120150) [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/sofroniewn/tactile-coding)
+
+
 # Tactile coding
 
 Interactive Jupyter notebooks to accompany 
 
-***NJ Sofroniew *, YA Vlasov *, SA Hires, J Freeman, & K Svoboda (2015) Neural coding in barrel cortex during whisker-guided locomotion, eLife, 10.7554/eLife.12559***
+***NJ Sofroniew\*, YA Vlasov\*, SA Hires, J Freeman, & K Svoboda (2015) Neural coding in barrel cortex during whisker-guided locomotion, eLife, 10.7554/eLife.12559***
 
 Read the published [article](http://elifesciences.org/content/4/e12559v1) on eLife
 
-Launch interactive notebooks by clicking this badge
+Download the supporting [data](https://doi.org/10.5281/zenodo.2949959) from Zenodo
+
+Launch interactive notebooks by clicking the binder badge
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/sofroniewn/tactile-coding)
 
